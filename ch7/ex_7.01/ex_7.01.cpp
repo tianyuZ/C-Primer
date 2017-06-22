@@ -13,6 +13,11 @@ public:
 	double revenue = 0.0;
 };
 
+ int a=1;
+
+const int& b = a;
+
+
 int main()
 {
 	Sales_data total;
